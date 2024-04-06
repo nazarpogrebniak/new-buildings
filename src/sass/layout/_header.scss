@@ -1,0 +1,73 @@
+header {
+  background: linear-gradient(213deg, #2d2a22 0%, #7e6d53 100%);
+}
+@media (max-width: 768px) {
+  header {
+    height: 100px;
+    width: 100%;
+  }
+  .header__container {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+  }
+  .header__logo {
+    height: 56px;
+    margin-top: 22px;
+  }
+  .header__list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    height: 20px;
+    margin-top: 35px;
+  }
+  .header__list__item {
+    font-weight: $secondTextWeight;
+    font-size: $mainTextSize;
+    color: $additionlTextColor;
+  }
+  .header__button {
+    display: none;
+  }
+}
+@media (max-width: 1300px) {
+  header {
+    height: 100px;
+  }
+  .header__container {
+    display: flex;
+    flex-direction: row;
+    gap: 144px;
+    justify-content: center;
+  }
+  .header__logo {
+    height: 56px;
+    margin-top: 22px;
+  }
+  .header__list {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    height: 20px;
+    margin-top: 35px;
+  }
+  .header__list__item {
+    font-weight: $secondTextWeight;
+    font-size: $mainTextSize;
+    color: $additionlTextColor;
+  }
+  .header__button {
+    margin-top: 30px;
+    border: 1px solid #fcfcfb;
+    border-radius: 8px;
+    padding: 4px 29px;
+    width: 152px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    color: $additionlTextColor;
+    font-size: $mainTextSize;
+    font-weight: $secondTextWeight;
+  }
+}
